@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/items
+Content-Type: application/json
+
+{
+  "title": "Black Wallet",
+  "description": "Black wallet found near the college library",
+  "category": "Accessories",
+  "location": "College Library",
+  "status": "FOUND",
+  "contactInfo": "student@example.com"
+}
